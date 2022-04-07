@@ -291,7 +291,7 @@ import * as meebitsDaoDelegation from './meebitsdao-delegation';
 import * as starcatchersTopWindow from './starcatchers-top-window';
 import * as gno from './gno';
 import * as umaVoting from './uma-voting';
-
+import * as apeCoinVote from './ape-coin-vote'
 const strategies = {
   'landdao-token-tiers': landDaoTiers,
   'giveth-balancer-balance': givethBalancerBalance,
@@ -583,7 +583,8 @@ const strategies = {
   'starcatchers-top-window': starcatchersTopWindow,
   gno: gno,
   'gno-vote-weight': gno,
-  'uma-voting': umaVoting
+  'uma-voting': umaVoting,
+  'ape-coin-vote':apeCoinVote,
 };
 
 Object.keys(strategies).forEach(function (strategyName) {
